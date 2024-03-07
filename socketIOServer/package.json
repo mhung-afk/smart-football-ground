@@ -1,0 +1,17 @@
+{
+  "name": "socketioserver",
+  "version": "1.0.0",
+  "description": "Socket IO server for realtime",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "NDC",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "socket.io": "^4.4.1"
+  }
+}

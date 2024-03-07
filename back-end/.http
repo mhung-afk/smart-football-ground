@@ -1,0 +1,9 @@
+GET http://localhost:5000/api/adafruit/get-last?device=led&productId=123
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIzMDU3ZWJjNjE4MWRmMzYxMDU5MGFmIiwibmFtZSI6Ik5ndXnhu4VuIMSQ4bqvYyBDaGnhur9uIiwiYXZhdGFyIjpudWxsLCJ1c2VyX3R5cGUiOiJtYW5hZ2VyIn0sImlhdCI6MTY0NzQxNDAxNX0.RefxQ_d1k-kwIjmBHtiYgU2WA0rXHxvbE14t0po3gYM
+
+###
+GET http://localhost:5000/api/products/districts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIzMDU3ZWJjNjE4MWRmMzYxMDU5MGFmIiwibmFtZSI6Ik5ndXnhu4VuIMSQ4bqvYyBDaGnhur9uIiwiYXZhdGFyIjpudWxsLCJ1c2VyX3R5cGUiOiJtYW5hZ2VyIn0sImlhdCI6MTY0NzQxNDAxNX0.RefxQ_d1k-kwIjmBHtiYgU2WA0rXHxvbE14t0po3gYM
+
+###
+GET http://localhost:5000/api/products?page=1&ward=Ph%C6%B0%E1%BB%9Dng+An+Ph%C3%BA&district=Qu%E1%BA%ADn+2

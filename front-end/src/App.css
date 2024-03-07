@@ -1,0 +1,14 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.the-header{
+  position: fixed;
+  padding-top: 0;
+  z-index: 10;
+  width: 100vw;
+}
+.inpage{
+  padding-top: 70px;
+}

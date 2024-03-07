@@ -1,0 +1,58 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+ 
+  
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(241, 121, 8);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-25%);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  
+ 
